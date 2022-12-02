@@ -108,10 +108,39 @@
   padding-top:60px; 
 }
 
-
-
-
-
-
-
-
+@media only screen and (max-width: 600px) {
+ 
+  body {
+      width: auto;
+      margin: 0;
+      overflow-x: hidden;
+  }
+ 
+  main {
+      width: auto;
+      margin: 0;
+      overflow-x: hidden;
+  }
+ 
+  footer {
+      width: auto;
+      margin: 0;
+      overflow-x: hidden;
+  }
+ 
+  iframe {
+      min-width: 300px;
+      max-width: 600px;
+      min-height: 168px;
+      max-height: 337px;
+  }
+  .saludo img {
+    max-width: 100%;
+    justify-content: center;
+  }
+  
+  .about-us iframe {
+    max-width: 100%;
+    justify-content: center;
+  }
+}
