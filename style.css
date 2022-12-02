@@ -1,0 +1,117 @@
+.container-fluid {
+  background-color: #D6D4D4 !important;
+}
+
+.logo {
+ border-radius: 50%;    
+}
+
+@font-face {
+  font-family: Genjiro;
+  src: url(fuentes/Genjiro.otf);
+}
+
+.navbar-brand {
+  font-family: Genjiro; 
+  font-size: 50px !important;
+}
+
+.bienvenida {
+  padding-top:  10px;
+  padding-bottom: 42px;
+}
+
+
+.fondo {
+  background-image: url(imagenes/fondo.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.mas-vistas {
+  color:white;
+  background-color: black;
+  filter:alpha(opacity=70);
+ -moz-opacity:.70;opacity:.70;
+  display: inline-block;
+  font-size: 40px;
+}
+
+.nombre-serie {
+  font-size: 60px;
+  font-weight: bold;
+  color: #DE4351;
+  background-color: #D6D4D4;
+  border: 20px solid rgba(0, 0, 0, 0.5);
+  background-clip: padding-box; 
+     
+}
+
+.extra {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#exampleInputEmail1 {
+  text-align: center;
+}
+
+.conjunto {
+  justify-content: center;
+}
+
+/*SERIES*/
+
+.categorias {
+  margin-top: 60px;
+}
+
+.titulo-categoria {
+  font-size: 20px;
+  font-weight: 700;
+  color: #a50310;
+}
+.card-body {
+  text-align: center;
+}
+
+.desplegable {
+  display: flex;
+  justify-content: flex-end;
+  width:100%; padding:0;
+  margin-top: 20px;
+
+}
+
+/*SOBRE NOSOTROS*/
+
+.saludo img {
+  max-width: 600px;
+  justify-content: center;
+}
+
+/*CONTACTO*/
+
+.formulario-contacto {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.espacio-datos, .llamar {
+  margin-top: 20px;
+  background-color: #D6D4D4;
+}
+
+.redes {
+  padding-top:60px; 
+}
+
+
+
+
+
+
+
+
