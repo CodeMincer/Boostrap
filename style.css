@@ -143,4 +143,18 @@
     max-width: 100%;
     justify-content: center;
   }
+
+  .formulario-contacto p {
+    font-size: 20px;
+    text-align: center;
+   }
+
+  .redes p {
+    text-align: center;
+  }
+
+ .redes .iconos {
+  display:grid !important;
+  justify-content:center !important;
+ }
 }
